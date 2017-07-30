@@ -1,0 +1,26 @@
+{
+  "name": "config-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "set DEBUG=*&& node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksami/config-manager.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksami/config-manager/issues"
+  },
+  "homepage": "https://github.com/ksami/config-manager#readme",
+  "dependencies": {
+    "debug": "^2.6.8"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
