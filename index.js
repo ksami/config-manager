@@ -1,6 +1,7 @@
-const lib = require("./lib/index");
+const lib = require("./lib");
 const d = require("debug")("config-manager:main");
 
+module.exports = lib;
 
 // Run as entry point
 if (require.main === module) {

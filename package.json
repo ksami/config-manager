@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set DEBUG=*&& node index",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "set DEBUG=config-manager:*&& node index",
+    "test": "set DEBUG=config-manager:*&& mocha test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "debug": "^2.6.8"
   },
   "devDependencies": {
+    "chai": "^4.1.0",
     "dotenv": "^4.0.0"
   }
 }
